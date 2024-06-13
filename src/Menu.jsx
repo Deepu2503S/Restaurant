@@ -25,6 +25,9 @@ const Menu = () => {
     setStatuses(newStatuses);
     setBgColors(newColors);
   };
+   let styles1={
+    color:"white",
+  }
 
   return (
     <div className="main-content">
@@ -33,6 +36,8 @@ const Menu = () => {
           <div className="card" key={index}>
             <img src={card.img} alt={card.name} />
             <h1 className="name">{card.name}</h1>
+            <h6 style={styles1}>{card.description}</h6>
+
             <div className="status1">
               <div className="rate">{card.price}</div>
               <div className="time">{card.time}</div>

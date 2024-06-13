@@ -47,6 +47,9 @@ const Menu = () => {
               <div className="rateNew" >{card.priceN}</div>
               <div className="time">{card.time}</div>
             </div>
+            <div className="ratings" style={styles1}> 
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> &nbsp; &nbsp;{card.ratings}
+            </div> 
             <div className="status2">
               <button
                 className="b4"

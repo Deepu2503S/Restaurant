@@ -7,6 +7,7 @@ const cardData = [
       priceN: " Rs. 220",
       time: "30 - 35 mins",
       description: "Authentic Indian Butter Chicken.Sauce Made of butter,spices,tomato and garlic-ginger mix with pieces of chicken."
+      ratings: "59 Ratings",
 
     },
     {
@@ -16,6 +17,7 @@ const cardData = [
       priceN: " Rs. 250",
       time: "35 - 40 mins",
       description: "Muradabadi Biriyani is typically prepared in kacchi style,in which raw chicken is cokked along with rice and spices."
+      ratings: "119 Ratings",
 
     },
     {
@@ -25,7 +27,8 @@ const cardData = [
       priceN: " Rs. 150",
       time: "25 - 30 mins",
       description: "An indian dish where the chunks of panner are marinated in spices and rolled over skewers in a tandoor and tossed in masala."
-        
+      ratings: "27 Ratings",
+      
     },
     {
       img: "https://i.pinimg.com/564x/6a/26/59/6a26596d569a3e2dbaf851d14b517f08.jpg",
@@ -33,6 +36,7 @@ const cardData = [
       priceN: " Rs. 120",
       time: "20 - 25 mins",
       description: "Made with rice,lenticels,potato,methi and curry leaves and served elegantly with chutney and shambhar."
+      ratings: "184 Ratings",
 
     },
     {
@@ -42,6 +46,7 @@ const cardData = [
       priceN: " Rs. 100",
       time: "30 - 35 mins",
       description: "The most famous dish of northern india where chana is served with fluffy maida rich bhaturas."
+      ratings: "176 Ratings",
 
     },
     {
@@ -51,6 +56,7 @@ const cardData = [
       priceN: " Rs. 180",
       time: "40 - 45 mins",
       description: "The chicken tandoori recipe for soft,juicy kabaabs will simply melt in your mouth."
+      ratings: "48 Ratings",
 
     },
     {
@@ -60,6 +66,7 @@ const cardData = [
       priceN: " Rs. 220",
       time: "40 - 45 mins",
       description: "This aromatic curried meat dish originating from kashmir will surely serve your tastebuds in the most elegant manner."
+      ratings: "90 Ratings",
 
     },
     {
@@ -69,6 +76,7 @@ const cardData = [
       priceN: " Rs. 200",
       time: "25 - 30 mins",
       description: "The thick paste made from pureed spinach, called palak when mixed with everyone's facourite paneer will surely serve as the most special dish of our restaurant"
+      ratings: "58 Ratings",
 
     },
   ];

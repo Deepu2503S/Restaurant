@@ -1,8 +1,8 @@
 
 const Submit = (props) => {
   return (
-    <div className="button">
-          <button type="submit">{props.val}</button>
+    <div >
+          <button type="submit" onClick={props.click} className="button">{props.text}</button>
     </div>
   )
 }

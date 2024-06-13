@@ -5,7 +5,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import Login from './Login.jsx';
 import SignUp from './SignUp.jsx';
-import HomePage from './HomePage.jsx';
+import Cart from './Cart.jsx';
+import Menu from './Menu.jsx';
+import Home from './Home.jsx';
 
 
 const router = createBrowserRouter([
@@ -15,7 +17,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <HomePage />,
+        element: <Home />,
+      },
+      {
+        path: 'Menu',
+        element: <Menu />,
       },
       {
         path: 'SignUp',
@@ -23,7 +29,11 @@ const router = createBrowserRouter([
       },
       {
         path: 'Login',
-        element: <Login />,
+        element: <Login />, 
+      },
+      {
+        path : 'Cart',
+        element : <Cart />,
       },
     ],
   },

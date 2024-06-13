@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Password from './Password';
 import Email from './Email';
 import Submit from './Submit';
@@ -8,10 +8,14 @@ import Facebook from './Facebook';
 
 
 const SignUp = () => {
+  const nav = useNavigate();
+
   const [username, setUsername] = useState('Username');
-  const [email, setEmail] = useState('Email');
   const [phone, setPhone] = useState('Phone');
-  const [password, setPassword] = useState('********');
+
+  function move() {
+    nav("/", { state: { username } }); 
+  }
 
   return (
     <div className="hehe">
@@ -47,7 +51,7 @@ const SignUp = () => {
         <div>                                
           <Password place="Password"/>
         </div>
-        <Submit val="LETS GO!!!"/>
+        <Submit click={move} text='Submit'/>
       </form>
       <div className="god">
         <Google text='Signup With Google'/>

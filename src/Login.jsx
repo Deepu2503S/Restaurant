@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Email from './Email';
 import Password from './Password';
 import Submit from './Submit';
@@ -7,6 +7,10 @@ import Google from './Google';
 import Facebook from './Facebook';
 
 const Login = () => {
+  const nav = useNavigate();
+  function move() {
+    nav("/", { state: { username } }); 
+  }
   return (
     <div className="hehe">
       <div className="h1">
@@ -16,7 +20,7 @@ const Login = () => {
       <form method="get">
         <Email place="Email"/>
         <Password place="Password"/>
-        <Submit val="Submit" />
+        <Submit text="Submit" />
         <div className="aayein">
             <a href="#" >Forgot Password</a>
         </div>

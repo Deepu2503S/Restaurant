@@ -28,6 +28,10 @@ const Menu = () => {
    let styles1={
     color:"white",
   }
+    let styles2={
+    textDecoration: 'line-through',
+    }
+
 
   return (
     <div className="main-content">
@@ -39,7 +43,8 @@ const Menu = () => {
             <h6 style={styles1}>{card.description}</h6>
 
             <div className="status1">
-              <div className="rate">{card.price}</div>
+              <div className="rateOld"  style={styles2}>{card.priceO}</div>
+              <div className="rateNew" >{card.priceN}</div>
               <div className="time">{card.time}</div>
             </div>
             <div className="status2">

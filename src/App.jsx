@@ -15,7 +15,7 @@ function App() {
       <div >
         <Link to="/Cart" className="cart"><BsCart4 /></Link>
       </div>
-      <Outlet />
+      <Outlet />          
       <nav className="navbar">
         <div className="div1">
           <Link to="/" className="nav-link">Home</Link>

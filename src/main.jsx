@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-import Login from './Login.jsx';
-import SignUp from './SignUp.jsx';
-import Cart from './Cart.jsx';
-import Menu from './Menu.jsx';
-import Home from './Home.jsx';
+import App from './App.jsx';
+import Login from './Components/Login.jsx';
+import SignUp from './Components/SignUp.jsx';
+import Cart from './Components/Assets/Cart.jsx';
+import Menu from './Components/Menu.jsx';
+import Home from './Components/Assets/Home.jsx';
 
 
 const router = createBrowserRouter([

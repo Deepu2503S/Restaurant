@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import cardData from "./Assets/Data";
+import LikeButton from "./LikeButton";
+
 
 
 
@@ -58,6 +60,7 @@ const Menu = () => {
               >
                 {statuses[index]}
               </button>
+              <LikeButton/>
               <button className="b4">Order Now</button>
             </div>
           </div>

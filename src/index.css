@@ -140,7 +140,7 @@ body {
 
 .card {
     width: 27vw;
-    height: 40vw;
+    height: 40.5vw;
     box-shadow: 0 0 1.6vw brown;
     border-radius: 5vw;
     display: flex;

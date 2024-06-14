@@ -9,14 +9,15 @@ function App() {
 
   return (
     <div className="main">
+      
+      {/* <div >
+        <Link to="/Cart" className="cart"><BsCart4 /></Link>
+      </div> */}
+        
+      <nav className="navbar">
       <div className="welcome-message">
         Welcome {username}!!
       </div>
-      <div >
-        <Link to="/Cart" className="cart"><BsCart4 /></Link>
-      </div>
-      <Outlet />          
-      <nav className="navbar">
         <div className="div1">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/Menu" className="nav-link">Menu</Link>
@@ -24,6 +25,8 @@ function App() {
           <Link to="/Login" className="nav-link">Login</Link>
         </div>
       </nav>
+
+      <Outlet />  
     </div>
   );
 }

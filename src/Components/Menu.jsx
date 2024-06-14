@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import cardData from "./Assets/Data";
 
+
+
 const Menu = () => {
   const initialStatuses = Array(cardData.length).fill("Add to Cart");
   const initialColors = Array(cardData.length).fill("rgb(133, 201, 203)");
@@ -23,6 +25,13 @@ const Menu = () => {
     setStatuses(newStatuses);
     setBgColors(newColors);
   };
+  let styles1={
+    color:"white",
+  }
+    let styles2={
+    textDecoration: 'line-through',
+    }
+
 
   return (
     <div className="main-content">
@@ -31,10 +40,16 @@ const Menu = () => {
           <div className="card" key={index}>
             <img src={card.img} alt={card.name} />
             <h1 className="name">{card.name}</h1>
+            <h6 style={styles1}>{card.description}</h6>          
+
             <div className="status1">
-              <div className="rate">{card.price}</div>
+              <div className="rateOld"  style={styles2}>{card.priceO}</div>
+              <div className="rateNew" >{card.priceN}</div>
               <div className="time">{card.time}</div>
             </div>
+            <div className="ratings" style={styles1}> 
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> &nbsp; &nbsp;{card.ratings}
+            </div> 
             <div className="status2">
               <button
                 className="b4"
@@ -53,3 +68,4 @@ const Menu = () => {
 };
 
 export default Menu;
+

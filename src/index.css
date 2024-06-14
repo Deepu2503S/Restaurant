@@ -11,15 +11,13 @@ html,body{
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
     overflow-y: hidden;
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: #465375;
 }
 
-/* Navigation Bar */
 .main {
     width: 100%;
     height: 80%;
@@ -28,11 +26,10 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    border: 2px solid red;
 }
 
 .navbar {
-    background-color:rgb(36, 0, 91);
+    background-color: #465375;
     backdrop-filter: blur(4vw);
     width: 100%;
     height: 4vw;
@@ -47,7 +44,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 1vw;
-    border-bottom: 0.1vw solid gray;
+    /* border-bottom: 0.1vw solid gray; */
     z-index: 20;
 }
 
@@ -58,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
     /* height: 4vh; */
-    margin-bottom: 1vw;
+    /* margin-bottom: 1vw; */
     align-items:center;
 }
 
@@ -117,13 +114,13 @@ body {
 }
 
 .name {
-    font-size: 1.6vw;
-    font-weight: 600;
+    font-size: 2vw;
+    font-weight: 500;
     text-decoration: dashed;
     justify-content: center;
     display: flex;
-    color: azure;
-    margin: 2vw;
+    color: black;
+    margin: 1vw;
 }
 
 .main-content {
@@ -132,7 +129,7 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     padding-top: 4vw; 
-    border: 3px solid navy;
+    /* border: 3px solid navy; */
     display: flex;
     justify-content: center;
 }
@@ -150,9 +147,9 @@ body {
 
 .card {
     width: 27vw;
-    height: 40.5vw;
-    box-shadow: 0 0 1.6vw brown;
-    border-radius: 5vw;
+    height: 70vh;
+    box-shadow: 0 0 1vw black;
+    border-radius: 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +172,6 @@ body {
 
 .card:hover {
     transform: scale(1.1);
-    backdrop-filter: blur(30px);
     z-index: 10;
 }
 
@@ -186,8 +182,8 @@ body {
     display: flex;
     width: 100%;
     margin: 0vw;
-    justify-content: space-between;
-    color: white;
+    justify-content: space-around;
+    color: black;
 }
 
 .status2{
@@ -215,7 +211,6 @@ body {
 
 .button {
     background-color: greenyellow;
-
     cursor: pointer;
     border: 1px solid rgb(31, 107, 31);
     border-radius: 25px;
@@ -226,15 +221,16 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2vw;
     padding: 0.6vw;
-    background-color: rgb(133, 201, 203);
+    color: white;
+    background-color: black;
     border-radius: 10px;
-    border-style: groove;
     cursor: pointer;
     margin: 0;
 }
 
 .button:hover {
-    background-color: darkgreen;
+    color: black;
+    background-color: white;
 }
 
 .h1 b {

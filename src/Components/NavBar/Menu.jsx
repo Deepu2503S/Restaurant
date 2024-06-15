@@ -93,12 +93,14 @@ const Menu = () => {
                 </button>
               ) : (
                 <div>
-                  <button onClick={() => handleDecrement(index)} className="incdec">-</button>
+                  <button onClick={() => handleDecrement(index)} className="incdec"> - </button>
                   <span className="quantity">{quantities[index]}</span>
                   <button onClick={() => handleIncrement(index)} className="incdec">+</button>
                 </div>
               )}
+              <div className="p">
               <LikeButton/>
+              </div>
               <button className="b4">Order Now</button>
             </div>
           </div>

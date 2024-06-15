@@ -1,8 +1,11 @@
-import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className="placards1">
+      <div className="cards">
+        Yo
+      </div>
+    </div>
   )
 }
 

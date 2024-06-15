@@ -1,34 +1,36 @@
-import { useState } from "react";
+// import { useState } from "react";
 
-function LikeButton(){
-    //let[count,setCount]=useState(0);
-    let[isLiked,setIsLiked]=useState(false);
+// function LikeButton(){
+//     //let[count,setCount]=useState(0);
+//     let[isLiked,setIsLiked]=useState(false);
 
-    let incCount = () => {
-        //setCount(count+0.5);
-        setIsLiked(!isLiked);
-    };
+//     let incCount = () => {
+//         //setCount(count+0.5);
+//         setIsLiked(!isLiked);
+//     };
 
-    let styleLike={
-        color:"red",
-    };
-
-
+//     let styleLike={
+//         color:"red",
+//     };
 
 
-    return(
+
+
+//     return(
         
-        <p onClick={incCount}>
-            {isLiked ?
-            (
-              <i class="fa fa-heart fa-2xl" aria-hidden="true" style={styleLike}></i>             )
-            :
-            ( 
-           <i class="far fa-heart fa-xl"></i>)}        
-        {/* <button onClick={incCount}>Add To Wishlist</button> */}
-        </p>
+//         <p onClick={incCount}>
+//             {isLiked ?
+//             (
+//               <i class="fa fa-heart fa-2xl" aria-hidden="true" style={styleLike}></i>             )
+//             :
+//             ( 
+//            <i class="far fa-heart fa-xl"></i>)}        
+//         {/* <button onClick={incCount}>Add To Wishlist</button> */}
+//         </p>
         
-    )
-}
+//     )
+// }
 
-export default LikeButton;
+// export default LikeButton;
+
+// Go To Components-> LikeButton.jsx

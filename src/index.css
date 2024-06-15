@@ -15,7 +15,8 @@ body {
     overflow-y: hidden;
     width: 100vw;
     height: 100vh;
-    background-color: #465375;
+    /* background-color: #465375; */
+    background-color: #ffffff;
 }
 
 .main {
@@ -29,7 +30,8 @@ body {
 }
 
 .navbar {
-    background-color: #465375;
+    /* background-color: #465375; */
+    background-color: #ffffff;
     backdrop-filter: blur(4vw);
     width: 100%;
     height: 4vw;
@@ -49,8 +51,7 @@ body {
 }
 
 .welcome-message {
-    color: white;
-    font-weight: 600;
+    color: #465375;
     font-size: 2vw;
     display: flex;
     justify-content: center;
@@ -66,21 +67,19 @@ body {
 }
 
 .nav-link {
-    padding: 0.8vw 1vw;
+    padding: 0.5vw;
     display: flex;
     color: black;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.3vw;
-    font-style: normal;
-    font-weight: 600;
+    font-size: 1.4vw;
     transition: transform 0.4s ease;
 }
 
 .nav-link:hover {
-    transform: scale(1.2);
-    color: black;
-    background-color: antiquewhite;
+    transform: scale(1.1);
+    color: white;
+    background-color: black;
+    border-radius: 4px;
 }
 
 
@@ -146,19 +145,20 @@ body {
 }
 
 .card {
-    width: 27vw;
-    height: 70vh;
+    width: 22vw;
+    height: 65vh;
     box-shadow: 0 0 1vw black;
     border-radius: 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 2vw;
+    /* padding: 2vw; */
     /* animation: lgbt 12s infinite ; */
     transition: transform 0.2s ease-in-out, backdrop-filter 0.2s ease-in-out;
     position: relative;
-    background-color: lightblue;
+    background-color: rgb(189, 189, 223);
+    overflow: hidden;
 }
 
 .card img {
@@ -167,7 +167,7 @@ body {
     width: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 2vw;
+    /* border-radius: 2vw; */
 }
 
 .card:hover {

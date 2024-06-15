@@ -6,7 +6,7 @@ const cardData = [
     priceO: "Rs. 250",
     priceN: " Rs. 220",
     time: "30 - 35 mins",
-    description: "Authentic Indian Butter Chicken.Sauce Made of butter,spices,tomato and garlic-ginger mix with pieces of chicken.",
+    description: "Tender chicken in authentic Indian buttery gravy.",
     ratings: "59 Ratings",
 
   },
@@ -16,7 +16,7 @@ const cardData = [
     priceO: "Rs. 300",
     priceN: " Rs. 250",
     time: "35 - 40 mins",
-    description: "Muradabadi Biriyani is typically prepared in kacchi style,in which raw chicken is cokked along with rice and spices.",
+    description: "Raw chicken cooked with rice and spices.",
     ratings: "119 Ratings",
 
   },
@@ -26,7 +26,7 @@ const cardData = [
     priceO: "Rs. 180",
     priceN: " Rs. 150",
     time: "25 - 30 mins",
-    description: "An indian dish where the chunks of panner are marinated in spices and rolled over skewers in a tandoor and tossed in masala.",
+    description: "Panner cubes marinated in spices and rolled over skewers in a tandoor and tossed in masala.",
     ratings: "27 Ratings",
     
   },

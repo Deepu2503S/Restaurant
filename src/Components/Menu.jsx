@@ -28,7 +28,7 @@ const Menu = () => {
     setBgColors(newColors);
   };
   let styles1={
-    color:"white",
+    color:"black",
   }
     let styles2={
     textDecoration: 'line-through',

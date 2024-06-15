@@ -32,6 +32,7 @@ const cardData = [
   },
   {
     img: "https://i.pinimg.com/564x/6a/26/59/6a26596d569a3e2dbaf851d14b517f08.jpg",
+    name: "Masala Dosa",
     priceO: "Rs. 150",
     priceN: " Rs. 120",
     time: "20 - 25 mins",

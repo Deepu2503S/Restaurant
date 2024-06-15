@@ -1,13 +1,11 @@
 import React from 'react'
-import Comment from '../Assets/Comment'
-
-
+import HomePage from '../Assets/HomePage'
 
 const Home = () => {
   return (
-    <div className="hehe">
+    <div className="full">
             <div >
-              <Comment/>
+              <HomePage/>
             </div>
     </div>
   )

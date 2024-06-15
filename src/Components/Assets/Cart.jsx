@@ -1,8 +1,8 @@
+import React from 'react'
+
 const Cart = () => {
   return (
-    <div>
-        Your Items :
-    </div>
+    <div className="welcome-message">Cart Functionality Disabled </div>
   )
 }
 

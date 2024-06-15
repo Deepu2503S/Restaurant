@@ -9,9 +9,6 @@ function App() {
 
   return (
     <div className="main">
-      {/* <div >
-        <Link to="/Cart" className="cart"><BsCart4 /></Link>
-      </div> */}
       <nav className="navbar">
         <div className="welcome-message">
           Welcome {username}!!
@@ -19,8 +16,11 @@ function App() {
         <div className="div1">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/Menu" className="nav-link">Menu</Link>
-          <Link to="/" className="nav-link">Contact</Link>
+          <Link to="/Contact" className="nav-link">Contact</Link>
           <Link to="/Login" className="nav-link">Login</Link>
+          <div >
+            <Link to="/Cart" className="cart"><BsCart4 /></Link>
+          </div>
         </div>
       </nav>
 

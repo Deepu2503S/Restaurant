@@ -65,7 +65,7 @@ body {
 
 .cart {
     text-decoration: none;
-    color: white;
+    color: grey;
     font-size: 3vw;
 }
 
@@ -108,7 +108,7 @@ body {
     font-size: 1.7vw;
 }
 
-.placards1 {
+.placards1{
     width: 100%;
     display: flex;
     text-align: center;
@@ -152,6 +152,7 @@ body {
     height: 65vh;
     box-shadow: 0 0 1vw black;
     border-radius: 3vw;
+    margin: 3vw 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,7 +160,7 @@ body {
     /* padding: 2vw; */
     /* animation: lgbt 12s infinite ; */
     transition: transform 0.2s ease-in-out, backdrop-filter 0.2s ease-in-out;
-    position: relative;
+    position: abs;
     background-color: rgb(189, 189, 223);
     overflow: hidden;
 }
@@ -423,6 +424,18 @@ button:hover {
     width: 100%;
 }
 
+.quantity{
+    padding: 0 2vw;
+    background-color: darkcyan;
+    margin: 0 0vw;
+    border-radius: 5px;
+}
+
+.incdec{
+    width: 3vw;
+    border-radius: 10px;
+}
+
 @media (max-width: 600px) {
     .hehe {
         font-size: 2.3vw;
@@ -515,9 +528,72 @@ button:hover {
         width: 100%;
         color: rgb(158, 212, 245);
     }
+
+    .navbar{
+        width: 100%;
+        height: 7vw;
+        font-size: 10vw;
+        overflow-y: auto;
+    }
+
+    .card{
+        width: 40vw;
+        height: 60vw;
+    }
+    .welcome-message{
+        font-size: 5vw;
+    }
+
+    .card:hover{
+        z-index: 100;
+    }
+
+    .main ::-webkit-scrollbar{
+        display: none;
+    }
+
+    h6{
+        display: none;
+    }
+    .ratings{
+        display: none;
+    }
+    .name{
+        padding: 0;
+        font-size: 5vw;
+    }
+    .rateOld{
+        display: none;
+    }
+    .status1{
+        padding: 0;
+        font-size: 3vw;
+        margin: 0;
+    }
+
+    p{
+        display: none;
+    }
+
+    .status2{
+        font-size: 3vw;
+    }
+    .b4{
+        width: 17.20vw;
+        height: 7vw;
+        font-size: 2.7vw;
+    }
+    .incdec{
+        border-radius: 10px;
+        width: 6vw;
+    }
+    .quantity{
+        border-radius: 10px;
+        padding: 0.5vw 3vw;
+    }
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .placards1 {
         flex-wrap: wrap;
     }
@@ -544,9 +620,9 @@ button:hover {
     .nav-link {
         font-size: 1vw;
     }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .placards1 {
         flex-wrap: wrap;
     }
@@ -570,14 +646,22 @@ button:hover {
         font-size: 2vw;
     }
 
+    .navbar{
+        height: 20vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0;
+       
+    }
+
     .nav-link {
-        font-size: 1vw;
+        font-size: 6vw;
     }
 
     .nav-link {
         display: none;
     }
-}
+} */
 
 .aayein a {
     text-decoration: none;
@@ -597,14 +681,63 @@ button:hover {
     color: aquamarine;
 }
 
-.quantity{
-    padding: 0 2vw;
-    background-color: darkcyan;
-    margin: 0 0vw;
-    border-radius: 5px;
-}
-
-.incdec{
-    width: 3vw;
-    border-radius: 10px;
-}
+.dropdown {
+    position: relative;
+    display: none; /* Initially hidden */
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(10, 10, 67);
+    /* min-width: 160px; */
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+  }
+  
+  .dropdown-content .nav-link {
+    color: rgb(174, 130, 130);
+    width: 16vw;
+    height: 7vw;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    /* display: block; */
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-content .nav-link:hover {
+    background-color: #f1f1f1;
+    z-index: 1000;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    z-index: 1000;
+  }
+  
+  .p1 {
+    margin: 1vw;
+    display: none;
+    font-size: 2.5vw;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .div1 {
+      display: none; /* Hide original navigation links */
+    }
+  
+    .p1 {
+        font-size: 5vw;
+      display: block; /* Show the menu icon */
+    }
+  
+    .dropdown {
+      display: flex; /* Enable dropdown menu */
+    }
+  }
+  

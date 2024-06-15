@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import App from './App.jsx';
-import Login from './Components/Login.jsx';
-import SignUp from './Components/SignUp.jsx';
-import Cart from './Components/Assets/Cart.jsx';
-import Menu from './Components/Menu.jsx';
-import Home from './Components/Assets/Home.jsx';
-import Contact from './Components/Contact.jsx';
+import Login from './Components/NavBar/Login.jsx';
+import SignUp from './Components/NavBar/SignUp.jsx';
+import Cart from './Components/NavBar/Cart.jsx';
+import Menu from './Components/NavBar/Menu.jsx';
+import Home from './Components/NavBar/Home.jsx';
+import Contact from './Components/NavBar/Contact.jsx';
 
 
 const router = createBrowserRouter([

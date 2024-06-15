@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import cardData from "./Assets/Data";
+import cardData from "../Assets/Data";
 
 const Menu = () => {
   // Initialize the statuses and quantities for each item

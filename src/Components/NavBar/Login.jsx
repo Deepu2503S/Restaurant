@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import Email from './Assets/Email';
-import Password from './Assets/Password';
-import Submit from './Assets/Submit';
-import Google from './Assets/Google';
-import Facebook from './Assets/Facebook';
+import Email from '../Assets/Email';
+import Password from '../Assets/Password';
+import Submit from '../Assets/Submit';
+import Google from '../Assets/Google';
+import Facebook from '../Assets/Facebook';
 
 const Login = () => {
   const nav = useNavigate();

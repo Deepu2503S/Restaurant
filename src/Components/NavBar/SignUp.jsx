@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import Password from './Assets/Password';
-import Email from './Assets/Email';
-import Submit from './Assets/Submit';
-import Google from './Assets/Google';
-import Facebook from './Assets/Facebook';
+import Password from '../Assets/Password';
+import Email from '../Assets/Email';
+import Submit from '../Assets/Submit';
+import Google from '../Assets/Google';
+import Facebook from '../Assets/Facebook';
 
 
 const SignUp = () => {

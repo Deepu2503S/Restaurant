@@ -124,9 +124,9 @@
         z-index: 100;
     }
 
-    .socialmedia{
+/*     .socialmedia{
         display:none;
-    }
+    } */
     .info{
         display:flex;
         flex-wrap: wrap;

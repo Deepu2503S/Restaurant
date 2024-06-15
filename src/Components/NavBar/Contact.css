@@ -1,26 +1,40 @@
+.placards3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;;
 
+}
+
+.cards3{
+    display: flex;
+    gap: 7vw;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
 
 .d{
-    border:5px solid red;
+    border:2px solid red;
     margin:5px;
 }
 .ss{
-    border:5px solid red;
+    border:2px solid red;
     margin:5px;
 
 }
 .sm{
-    border:5px solid red;
+    border:2px solid red;
     margin:5px;
 
 }
 .name{
     font-weight:900;
-    font-size: 35px;
+    font-size: 2vw;
     text-decoration:underline dotted;
     color:black;
-    display:flex;
-    flex-wrap: wrap;
+    /* display:flex; */
+    /* flex-wrap: wrap; */
 }
 
 .info{

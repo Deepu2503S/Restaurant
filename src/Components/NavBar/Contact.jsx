@@ -3,8 +3,8 @@ import { FaFacebook,FaTwitter,FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="placards1">
-      <div className="cards">
+    <div className="placards3">
+      <div className="cards3">
         <div className="d">
         <div className="name">Deepanshu Singh</div>
         <div className="img"><img src="https://tse2.mm.bing.net/th?id=OIP.i96I-BcM8xEgPTv4N5g0ogHaFj&pid=Api&P=0&h=180"></img></div>

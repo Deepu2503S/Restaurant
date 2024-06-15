@@ -9,6 +9,7 @@ import Cart from './Components/NavBar/Cart.jsx';
 import Menu from './Components/NavBar/Menu.jsx';
 import Home from './Components/NavBar/Home.jsx';
 import Contact from './Components/NavBar/Contact.jsx';
+import Order from './Components/Assets/Order.jsx';
 
 
 const router = createBrowserRouter([
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path : 'Contact',
         element : <Contact/>,
+      },
+      {
+        path : 'Order',
+        element : <Order/>,
       },
     ],
   },

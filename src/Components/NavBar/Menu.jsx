@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import cardData from "../Assets/Data";
 import LikeButton from "./LikeButton";
+import { useNavigate } from "react-router";
 
 
 const Menu = () => {
@@ -12,6 +13,23 @@ const Menu = () => {
   const [statuses, setStatuses] = useState(initialStatuses);
   const [quantities, setQuantities] = useState(initialQuantities);
   const [bgColors, setBgColors] = useState(initialColors);
+
+  const nav = useNavigate();
+
+  const move = (index) => {
+    const card = cardData[index];
+    nav("/Order", {
+      state: {
+        img: card.img,
+        name: card.name,
+        description: card.description,
+        priceO: card.priceO,
+        priceN: card.priceN,
+        time: card.time,
+        ratings: card.ratings,
+      },
+    });
+  };
 
   const handleClick = (index) => {
     const newStatuses = [...statuses];
@@ -99,9 +117,9 @@ const Menu = () => {
                 </div>
               )}
               <div className="p">
-              <LikeButton/>
+                <LikeButton/>
               </div>
-              <button className="b4">Order Now</button>
+              <button className="b4" onClick={() => move(index)}>Order Now</button>
             </div>
           </div>
         ))}

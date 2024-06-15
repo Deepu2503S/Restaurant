@@ -1,0 +1,121 @@
+.placards2 {
+    width: 95vw;
+    height: 80vh;
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    animation: grow 1s ease-in-out forwards;
+}
+
+.image {
+    width: 40vw;
+    height: 80vh;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 37vw;
+    height: 77vh;
+    border-radius: 17px;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.desc1 {
+    top: 0;
+    width: 55vw;
+    height: 32vw;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.desc1 h1 {
+    font-size: 4em;
+    /* margin-bottom: 10px; */
+}
+
+.desc1 p {
+    font-size: 2.4em;
+    /* margin-bottom: 20px; */
+}
+
+.price1 {
+    /* display: flex; */
+    font-size: 2em;
+    align-items: baseline;
+    /* margin-bottom: 10px; */
+}
+
+.old-price1 {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.new-price1 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.time1 {
+    font-size: 2em;
+    /* margin-bottom: 10px; */
+}
+
+.ratings1 {
+    font-size: 1.6em;
+    /* font-size: 1.2em; */
+    margin-bottom: 2vh;
+}
+
+.ratings1 i {
+    font-size: 1.4em;
+    color: gold;
+}
+
+.buttons1{
+    
+    width: 55vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.huhu1{
+    border: 2px solid burlywood;
+    width: 9vw;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 5vw;
+    transition: transform 0.3s ease;
+}
+
+.huhu1:hover{
+    background-color: rgb(254, 214, 37);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0.7);
+        opacity: 0.5;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

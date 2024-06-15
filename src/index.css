@@ -768,16 +768,16 @@ button:hover {
   
   @media (max-width: 768px) {
     .div1 {
-      display: none; /* Hide original navigation links */
+      display: none; 
     }
   
     .p1 {
         font-size: 5vw;
-      display: block; /* Show the menu icon */
+      display: block; 
     }
   
     .dropdown {
-      display: flex; /* Enable dropdown menu */
+      display: flex; 
     }
   }
   

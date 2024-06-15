@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import cardData from "../Assets/Data";
+import LikeButton from "./LikeButton";
+
 
 const Menu = () => {
   // Initialize the statuses and quantities for each item
@@ -96,6 +98,7 @@ const Menu = () => {
                   <button onClick={() => handleIncrement(index)} className="incdec">+</button>
                 </div>
               )}
+              <LikeButton/>
               <button className="b4">Order Now</button>
             </div>
           </div>

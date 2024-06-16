@@ -162,21 +162,22 @@ body {
     box-shadow: 0 0 1vw black;
     border-radius: 3vw;
     margin: 3vw 0;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly; */
-    /* padding: 2vw; */
-    /* animation: lgbt 12s infinite ; */
+    justify-content: space-evenly;
+    padding: 2vw;
+    animation: lgbt 12s infinite ;
     transition: transform 0.2s ease-in-out, backdrop-filter 0.2s ease-in-out;
     background-color: rgb(189, 189, 223);
     overflow: hidden;
     padding: 0px 2vw;
 }
 
-.card .dishimg{
-    height: 70%
-} 
+/* .card .dishimg{
+    height: 70vh;
+    width: 100vw;
+}  */
 
 .card .dishtext{
     height: 40%;
@@ -184,7 +185,7 @@ body {
 
 .card img{
     /* border: 0px solid brown; */
-    height: 55%;
+    height: 55vh;
     width: 100%;
     object-fit: cover;
     object-position: center;
@@ -203,7 +204,7 @@ body {
 .status1 {
     text-decoration: dashed;
     align-items: center;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     display: flex;
     width: 100%;
     margin: 0vw;
@@ -217,10 +218,11 @@ body {
     font-size: 1vw;
     display: flex;
     width: 100%;
-    gap: 0.2vw;
+    gap: 0.8vw;
     justify-content: space-evenly;
     color: white;
     margin-top: 0.8vw;
+    margin-bottom: 2vw;
     
 }
 
@@ -242,6 +244,7 @@ body {
     margin-top: 2vw;
 }
 
+
 .b4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2vw;
@@ -253,7 +256,11 @@ body {
     margin: 0;
 }
 
-.button:hover {
+.b4:hover{
+    background-color: greenyellow;
+}
+
+.button:hover{
     color: black;
     background-color: white;
 }
@@ -574,14 +581,14 @@ button:hover {
 }
 
 .quantity{
-    padding: 0 2vw;
+    padding: 0 1vw;
     background-color: darkcyan;
     margin: 0 0vw;
     border-radius: 5px;
 }
 
 .incdec{
-    width: 3vw;
+    width: 2vw;
     border-radius: 10px;
 }
 

@@ -31,7 +31,7 @@ const Order = () => {
           ))} &nbsp; {ratings}
         </div>
         <div className="buttons1">
-            <button className="huhu1"> Order Now</button>
+            <Link to="/Confirmation"><button className="huhu1"> Order Now</button></Link>
             
             <Link to="/Branches"><button className="huhu1">Dine-In</button></Link>
         </div>

@@ -11,6 +11,7 @@ import Home from './Components/NavBar/Home.jsx';
 import Contact from './Components/NavBar/Contact.jsx';
 import Order from './Components/Assets/Order.jsx';
 import Branches from './Components/NavBar/Branches.jsx';
+import Confirmation from './Components/Assets/Confirmation.jsx';
 
 
 const router = createBrowserRouter([
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path : 'Branches',
         element :<Branches />,
+      },
+      {
+        path : 'Confirmation',
+        element :<Confirmation/>,
       },
     ],
   },

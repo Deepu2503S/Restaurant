@@ -1,0 +1,72 @@
+.placards5 {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 1vw;
+    animation: grow 1s ease-in-out;
+    background-color: rgb(133, 182, 214);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.cnf{
+    font-size: 5vw;
+    color: greenyellow;
+    border-radius: 100%;
+}
+
+.reC{
+    color:black;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.continue{
+    width: 15vw;
+    height: 4vw;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    font-weight: 900;
+    font-size: 1.02vw;
+}
+
+.continue:hover{
+    background-color: greenyellow;
+    transform: scale(1.2);
+}
+
+@media (max-width:900px){
+    .cnf{
+        font-size: 15vw;
+    }
+
+    .reC{
+        font-size: 4vw;
+    }
+    .continue{
+        width: 25vw;
+        height: 5vh;
+        font-size: 1.8vw;
+
+    }
+}
+
+@media (max-width:500px){
+    .cnf{
+        font-size: 19vw;
+    }
+
+    .reC{
+        font-size: 5vw;
+    }
+    .continue{
+        width: 30vw;
+        height: 5vh;
+        font-size: 2.4vw;
+
+    }
+}

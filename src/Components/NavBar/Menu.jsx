@@ -88,9 +88,7 @@ const Menu = () => {
       <div className="placards1">
         {cardData.map((card, index) => (
           <div className="card" key={index}>
-            <img src={card.img} alt={card.name} className="dishimg"/>
-
-            <div className="dishtext">
+            <img src={card.img} alt={card.name} />
             <h1 className="name">{card.name}</h1>
             <h6 style={styles1}>{card.description}</h6>
 
@@ -112,7 +110,7 @@ const Menu = () => {
                   {statuses[index]}
                 </button>
               ) : (
-                <div>
+                <div >
                   <button onClick={() => handleDecrement(index)} className="incdec"> - </button>
                   <span className="quantity">{quantities[index]}</span>
                   <button onClick={() => handleIncrement(index)} className="incdec">+</button>
@@ -122,7 +120,6 @@ const Menu = () => {
                 <LikeButton/>
               </div>
               <button className="b4" onClick={() => move(index)}>Order Now</button>
-            </div>
             </div>
           </div>
         ))}

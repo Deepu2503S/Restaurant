@@ -16,7 +16,7 @@ body {
     width: 100vw;
     height: 100vh;
     /* background-color: #465375; */
-    background-color: #ffffff;
+    background-color:#21232d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -397,6 +397,7 @@ body {
     justify-content: center;
     color: white;
     gap: 2vw;
+    text-shadow: 0 0 3px rgb(190, 131, 52);
 }
 
 .Redirect{

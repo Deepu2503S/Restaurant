@@ -29,14 +29,14 @@
     margin:5px;
 
 }
-.name{
+/* .name{
     font-weight:900;
     font-size: 2vw;
     text-decoration:underline dotted;
     color:black;
-    /* display:flex; */
-    /* flex-wrap: wrap; */
-}
+    display:flex;
+    flex-wrap: wrap;
+} */
 
 .info{
     font-size: 20px;

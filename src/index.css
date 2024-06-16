@@ -117,8 +117,8 @@ body {
 
 .name {
     font-size: 2vw;
-    font-weight: 500;
-    text-decoration: dashed;
+    font-weight: 900;
+    /* text-decoration: dashed; */
     justify-content: center;
     display: flex;
     color: black;
@@ -160,7 +160,6 @@ body {
     /* padding: 2vw; */
     /* animation: lgbt 12s infinite ; */
     transition: transform 0.2s ease-in-out, backdrop-filter 0.2s ease-in-out;
-    position: abs;
     background-color: rgb(189, 189, 223);
     overflow: hidden;
 }

@@ -893,7 +893,8 @@ button:hover {
   
     .p1 {
         font-size: 5vw;
-      display: block; 
+      display: block;
+      color: white; 
     }
   
     .dropdown {
@@ -921,6 +922,11 @@ button:hover {
     .placards1 .dishimg{
         height: 100%;
         width: 58%;
+    }
+
+    .placards1 .dishtext{
+        display: flex;
+        flex-direction: column;
     }
 
 

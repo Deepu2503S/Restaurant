@@ -88,7 +88,8 @@ const Menu = () => {
       <div className="placards1">
         {cardData.map((card, index) => (
           <div className="card" key={index}>
-            <img src={card.img} alt={card.name} />
+            <img src={card.img} alt={card.name} className="dishimg"/>
+            <div className="dishtext">
             <h1 className="name">{card.name}</h1>
             <h6 style={styles1}>{card.description}</h6>
 
@@ -120,6 +121,7 @@ const Menu = () => {
                 <LikeButton/>
               </div>
               <button className="b4" onClick={() => move(index)}>Order Now</button>
+            </div>
             </div>
           </div>
         ))}

@@ -109,6 +109,16 @@ img{
 
     .info {
         font-size: 4vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .huhu2{
+        width: 90%;
+        height: 50%;
+        background-color: lightgreen;
+        border: none;
+
     }
 }
 
@@ -141,3 +151,4 @@ img{
         font-size: 1.5vw;
     }
 } */
+

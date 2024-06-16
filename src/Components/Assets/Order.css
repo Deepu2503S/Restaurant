@@ -119,3 +119,140 @@
         opacity: 1;
     }
 }
+
+@media (max-width:1000px) {
+    .placards2{
+        display: block;
+        width: 95vw;
+        height: 90vh;
+    }    
+    .image{
+        display: block;
+        width: 95vw;
+        height: 30vh;
+    }
+    .image img{
+        width: 95vw;
+        height: 30vh;
+        object-fit: cover;
+        display: flex;
+        border-radius: 0;
+    }
+    .desc1{
+        width: 95vw;
+        height: 55vh;
+    }
+    .buttons1{
+        justify-content: space-between;
+    }
+    .huhu1{
+        width: 19vw;
+        height: 4vh;
+    }
+    .desc1 h1 {
+        font-size: 7.3vw;
+        /* margin-bottom: 10px; */
+    }
+    
+    .desc1 p {
+        display: block;
+        font-size: 3vw;
+        /* margin-bottom: 20px; */
+    }
+    
+    .price1 {
+        /* display: flex; */
+        font-size: 3.3vw;
+        align-items: baseline;
+        /* margin-bottom: 10px; */
+    }
+    
+    .old-price1 {
+        text-decoration: line-through;
+        margin-right: 1vw;
+    }
+    
+    .new-price1 {
+        font-size: 4.5vw;
+        font-weight: bold;
+        color: darkgreen;
+    }
+    
+    .time1 {
+        font-size: 4vw;
+        /* margin-bottom: 10px; */
+    }
+    
+    .ratings1 {
+        font-size: 2.5vw;
+        /* font-size: 1.2em; */
+        margin-bottom: 2vh;
+    }
+    
+    .ratings1 i {
+
+        color: greenyellow;
+    }
+}
+
+@media (max-width : 550px) {
+    .desc1{
+        width: 95vw;
+        height: 55vh;
+    }
+    .buttons1{
+        width: 80vw;
+        justify-content: space-between;
+        gap: 10vw;
+    }
+    .huhu1{
+        width: 35vw;
+        height: 5vh;
+        font-size: 3vw;
+    }
+    .desc1 h1 {
+        margin-top: 4vw;
+        font-size: 9.3vw;
+        /* margin-bottom: 10px; */
+    }
+    
+    .desc1 p {
+        display: block;
+        font-size: 4vw;
+        /* margin-bottom: 20px; */
+    }
+    
+    .price1 {
+        /* display: flex; */
+        font-size: 5.3vw;
+        align-items: baseline;
+        /* margin-bottom: 10px; */
+    }
+    
+    .old-price1 {
+        text-decoration: line-through;
+        margin-right: 3vw;
+    }
+    
+    .new-price1 {
+        font-size: 8.5vw;
+        font-weight: bold;
+        color: darkgreen;
+    }
+    
+    .time1 {
+        font-size: 4vw;
+        /* margin-bottom: 10px; */
+    }
+    
+    .ratings1 {
+        font-size: 4.5vw;
+        /* font-size: 1.2em; */
+        margin-bottom: 2vh;
+    }
+    
+    .ratings1 i {
+
+        color: greenyellow;
+    } 
+}

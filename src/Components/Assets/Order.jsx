@@ -1,10 +1,16 @@
 import React from 'react';
 import './Order.css';
-import { useLocation } from 'react-router';
+import { useLocation, useNavigate } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Order = () => {
   const location = useLocation();
   const { img, name, description, priceO, priceN, time, ratings } = location.state;
+
+  const nav = useNavigate();
+  function move(){
+    nav("Branch")
+  }
 
   return (
     <div className="placards2">
@@ -26,7 +32,8 @@ const Order = () => {
         </div>
         <div className="buttons1">
             <button className="huhu1"> Order Now</button>
-            <button className="huhu1">Dine-In</button>
+            
+            <Link to="/Branches"><button className="huhu1">Dine-In</button></Link>
         </div>
       </div>
     </div>

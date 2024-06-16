@@ -1,18 +1,23 @@
 import { BiColor } from "react-icons/bi"
-import { IoIosArrowForward } from "react-icons/io";
+import { IoIosCafe } from "react-icons/io";
+import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 
-function openMenu(){
-    return(
-        <Menu />
-    );
-}
+
+
 export default function HomePage(){
+    const nav = useNavigate
+    function openMenu(){
+        nav("/Contact");
+    }
     return (
         <div className="fullPage" >
             <div className="h1">Hungry?</div>
             <div className="subscript">
                 <p>We've Got Your Next Favorite Meal!</p>
-                <button className="Redirect" onClick={openMenu}> <IoIosArrowForward /> </button>
+            </div>
+            <div className="opnmen">
+                <Link to="/Menu"><button className="Redirect"><IoIosCafe /> </button></Link>
             </div>
         </div>
     )

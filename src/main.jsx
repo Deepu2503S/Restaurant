@@ -10,6 +10,7 @@ import Menu from './Components/NavBar/Menu.jsx';
 import Home from './Components/NavBar/Home.jsx';
 import Contact from './Components/NavBar/Contact.jsx';
 import Order from './Components/Assets/Order.jsx';
+import Branches from './Components/NavBar/Branches.jsx';
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path : 'Order',
         element : <Order/>,
+      },
+      {
+        path : 'Branches',
+        element :<Branches />,
       },
     ],
   },

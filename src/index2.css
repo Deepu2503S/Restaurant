@@ -34,7 +34,7 @@ body {
 
 .navbar {
     /* background-color: #465375; */
-    /* background-color: #ffffff; */
+    background-color: #ffffff;
     backdrop-filter: blur(4vw);
     width: 100%;
     height: 4vw;
@@ -65,7 +65,7 @@ body {
 
 .cart {
     text-decoration: none;
-    color: rgb(2, 52, 233);
+    color: grey;
     font-size: 3vw;
 }
 
@@ -117,8 +117,8 @@ body {
 
 .name {
     font-size: 2vw;
-    font-weight: 900;
-    /* text-decoration: dashed; */
+    font-weight: 500;
+    text-decoration: dashed;
     justify-content: center;
     display: flex;
     color: black;
@@ -160,6 +160,7 @@ body {
     /* padding: 2vw; */
     /* animation: lgbt 12s infinite ; */
     transition: transform 0.2s ease-in-out, backdrop-filter 0.2s ease-in-out;
+    position: abs;
     background-color: rgb(189, 189, 223);
     overflow: hidden;
 }
@@ -276,87 +277,37 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('./Components/Assets/Images/HomeBG8.jpg');
-    /* background-size: cover; */
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-@keyframes fadeInZoom {
-    0% {
-        opacity: 0;
-        transform: scale(0.5);
-    }
-    50% {
-        opacity: 0.5;
-        transform: scale(1.5);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@keyframes textGlow {
-    0% {
-        text-shadow:
-            0 0 0.1vw rgb(113, 48, 128),
-            0 0 1vw rgb(2, 20, 4),
-            0 0 2vw rgb(105, 73, 30),
-            0 0 3vw rgb(178, 188, 35),
-            0 0 4vw white;
-    }
-    50% {
-        text-shadow:
-            0 0 0.7vw rgb(113, 48, 128),
-            0 0 1.7vw rgb(2, 20, 4),
-            0 0 2.7vw rgb(105, 73, 30),
-            0 0 3.7vw rgb(178, 188, 35),
-            0 0 4.7vw white;
-    }
-    100% {
-        text-shadow:
-            0 0 0.1vw rgb(113, 48, 128),
-            0 0 1vw rgb(2, 20, 4),
-            0 0 2vw rgb(105, 73, 30),
-            0 0 3vw rgb(178, 188, 35),
-            0 0 4vw white;
-    }
-}
-
-.fullPage {
+.fullPage{
     width: 55vw;
     height: 62vh;
-    /* background-color: black; */
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 20px;
-    animation: fadeInZoom 2s ease-in-out;
+    animation: lgbt 12s infinite;
 }
 
-.fullPage .h1 {
+.fullPage .h1{
     color: white;
-    font-size: 16vw;
-    text-shadow:
-        0 0 0.1vw #713080,
-        0 0 1vw rgb(2, 20, 4),
-        0 0 2vw rgb(105, 73, 30),
-        0 0 3vw rgb(178, 188, 35),
-        0 0 4vw white;
-    margin-bottom: 4vw;
-    animation: textGlow 3s infinite alternate;
+    font-size: 12vw;
 }
 
-.subscript {
-    margin: 0px;
+.subscript{
+    margin: 10px;
     width: 40vw;
     font-size: 1.5vw;
     display: flex;
     justify-content: center;
     color: white;
     gap: 2vw;
+}
+
+.fullPage p{
+
 }
 
 @keyframes grow {
@@ -629,7 +580,6 @@ button:hover {
         width: 40vw;
         height: 60vw;
     }
-
     .welcome-message{
         font-size: 5vw;
     }
@@ -680,9 +630,6 @@ button:hover {
     .quantity{
         border-radius: 10px;
         padding: 0.5vw 3vw;
-    }
-    .fullPage .h1{
-        font-size: 27vw;
     }
 }
 
@@ -821,59 +768,16 @@ button:hover {
   
   @media (max-width: 768px) {
     .div1 {
-      display: none; 
+      display: none; /* Hide original navigation links */
     }
   
     .p1 {
         font-size: 5vw;
-      display: block; 
+      display: block; /* Show the menu icon */
     }
   
     .dropdown {
-      display: flex; 
+      display: flex; /* Enable dropdown menu */
     }
   }
- 
   
-.Redirect{
-    margin-top: 2vw;
-    width: 12vw;
-    border-radius: 40px;
-    height: 4vw;
-    font-size: 2vw;
-    background: black;
-    color: white;
-    border: 1px solid gold;
-    transition: transform 0.3s ease;
-}
-
-.Redirect:hover{
-    background-color: white;
-    color:  black;
-    transform: scale(1.2);
-}
-
-@media (max-width:600px) {
-    .Redirect{
-        width: 22vw; 
-        height: 6vh;   
-        font-size: 4vw;
-        text-align: center;
-    }
-}
-
-@media (max-width:600px){
-    .placards1 .card{
-        width: 85vw;
-        height: 28vh;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .placards1 .dishimg{
-        height: 100%;
-        width: 58%;
-    }
-
-
-}

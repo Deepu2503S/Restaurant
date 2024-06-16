@@ -11,7 +11,7 @@ const Branches = () => {
     <div className="placards3">
       <div className="cards3">
         <div className="d">
-        <div className="name">Laxmi Nagar , New Delhi</div>
+        <div className="name2">Laxmi Nagar , New Delhi</div>
         <div className="imge"><img src="https://i.pinimg.com/originals/92/88/a5/9288a57e7670c7e1bff27c8866525823.jpg"></img></div>
         <div className="info">
         <div className="info1">
@@ -34,7 +34,7 @@ const Branches = () => {
         </div>
         </div>
         <div className="ss">
-        <div className="name">Punjabi Bagh,New Delhi</div>
+        <div className="name2">Punjabi Bagh,New Delhi</div>
         <div className="imge"><img src="https://wallpapercave.com/wp/wp1874173.jpg"></img></div>
         <div className="info">
         <div className="info1">
@@ -58,7 +58,7 @@ const Branches = () => {
         </div>
         </div>
         <div className="sm">
-        <div className="name">Rajendra Nagar,New Delhi</div>
+        <div className="name2">Rajendra Nagar,New Delhi</div>
         <div className="imge"><img src="https://biancas-blog.de/wp-content/uploads/2015/09/Matsuhia-Munich-Mandarin-Oriental-Restaurant-Bar-5a.jpg"></img></div>
         <div className="info">
         <div className="info1">

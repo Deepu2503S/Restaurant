@@ -402,9 +402,10 @@ body {
     font-size: 1.5vw;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
     gap: 2vw;
-    text-shadow: 0 0 3px rgb(190, 131, 52);
+    font-weight: 900;
+    text-shadow: 0 0 0.1vw rgb(23, 10, 10),0 0 0.5vw rgb(237, 237, 237),0 0 2.6vw #000000,0 0 1.5vw rgb(209, 227, 89),0 0 1.9vw rgb(237, 237, 237),0 0 2.9vw rgb(237, 237, 237),0 0 3.9vw rgb(244, 224, 0);
 }
 
 .Redirect{
@@ -699,6 +700,7 @@ button:hover {
 
     .welcome-message{
         font-size: 5vw;
+        justify-content: end;
     }
 
     .card:hover{
@@ -750,6 +752,10 @@ button:hover {
     }
     .fullPage .h1{
         font-size: 27vw;
+    }
+
+    .p1{
+        color: white;
     }
 }
 
@@ -893,12 +899,16 @@ button:hover {
   
     .p1 {
         font-size: 5vw;
-      display: block;
-      color: white; 
+      display: block; 
+      color: white;
     }
   
     .dropdown {
       display: flex; 
+    }
+    .welcome-message{
+        justify-content: end;
+
     }
 }
  
@@ -922,11 +932,6 @@ button:hover {
     .placards1 .dishimg{
         height: 100%;
         width: 58%;
-    }
-
-    .placards1 .dishtext{
-        display: flex;
-        flex-direction: column;
     }
 
 

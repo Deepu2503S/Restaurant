@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="placards3">
       <div className="cards3">
         <div className="d">
-        <div className="name">Deepanshu Singh</div>
+        <div className="name1">Deepanshu Singh</div>
         <div className="img"><img src="https://tse2.mm.bing.net/th?id=OIP.i96I-BcM8xEgPTv4N5g0ogHaFj&pid=Api&P=0&h=180"></img></div>
         <div className="info">
         <div className="info1">
@@ -23,7 +23,7 @@ const Contact = () => {
         </div>
         </div>
         <div className="ss">
-        <div className="name">Shreya Sarnagar</div>
+        <div className="name1">Shreya Sarnagar</div>
         <div className="img"><img src="https://tse2.mm.bing.net/th?id=OIP.i96I-BcM8xEgPTv4N5g0ogHaFj&pid=Api&P=0&h=180"></img></div>
         <div className="info">
         <div className="info1">
@@ -41,7 +41,7 @@ const Contact = () => {
         </div>
         </div>
         <div className="sm">
-        <div className="name">Shambhavi Mishra</div>
+        <div className="name1">Shambhavi Mishra</div>
         <div className="img"><img src="https://tse2.mm.bing.net/th?id=OIP.i96I-BcM8xEgPTv4N5g0ogHaFj&pid=Api&P=0&h=180"></img></div>
         <div className="info">
         <div className="info1">

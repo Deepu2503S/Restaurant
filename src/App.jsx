@@ -3,7 +3,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { BsCart4 } from "react-icons/bs";
 import { MdRestaurantMenu } from "react-icons/md";
-import { TfiShoppingCartFull } from "react-icons/tfi";
+import { CgProfile } from "react-icons/cg";
 
 function App() {
   const location = useLocation();
@@ -30,9 +30,8 @@ function App() {
           <Link to="/Menu" className="nav-link">Menu</Link>
           <Link to="/Branches" className="nav-link">Branches</Link>
           <Link to="/Contact" className="nav-link">Contact</Link>
-          <Link to="/Login" className="nav-link">Login</Link>
           <div >
-            <Link to="/Cart" className="cart"><TfiShoppingCartFull /></Link>
+          <Link to="/Login" className="loginlogo"><CgProfile /></Link>
           </div>
         </div>
       </nav>
